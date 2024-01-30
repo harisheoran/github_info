@@ -28,7 +28,7 @@ var teamCmd = &cobra.Command{
 		if username == "" {
 			fmt.Println("No username. Provide Username: --u=harish")
 		} else if repo == "" {
-			fmt.Println("No username. Provide Username: --r=kubernetes")
+			fmt.Println("No username. Provide Repository: --r=kubernetes")
 		} else {
 			getCollaborators(username, repo)
 		}
